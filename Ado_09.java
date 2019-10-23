@@ -1,8 +1,4 @@
-// Marcelo Frost Marchesan
-// Roger Kevin Pereira Barreto
-// Enio David Santos Mendes Lima
-
-// Atividade ADO 9: Jogo de Adivinhação
+// Jogo simples de adivinhar o numero gerado aleatoriamente.
 
 package ado_09;
 
@@ -29,9 +25,7 @@ public class Ado_09 {
        
         
         do{
-          
-            System.out.printf("%d\n",numero);
-             
+                       
             if(contador == 0){
                 System.out.println("Adivinhe o numero gerado: ");
                 usuario = entrada.nextInt();
